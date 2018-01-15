@@ -1,0 +1,21 @@
+{
+  "name": "eventemitter/HappyEventEmitter",
+  "require": {
+    "php": ">=7.0",
+    "ext-ds": ">=1.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "HappyEventEmitter": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "HappyEventEmitter": "tests"
+    }
+  }
+}
+
